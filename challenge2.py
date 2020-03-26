@@ -99,7 +99,7 @@ def check_freq_of_word_in_book(the_book_URL):
     temp_file.close()
     os.remove("temp_file.txt")
 
-
+ 
 def get_scraped_data(book_URL):
     '''
     This function accepts a book URL paramater. It takes the paramater, and returns the string. this function utilizes the Beautifulshop library
@@ -127,6 +127,7 @@ def output_word_and_freq(the_book_count):
     for i in highest_values:
         count +=1
         print(str(count) + ") " + i[0],"   : ", i[1], " ") 
+
 
 
 
